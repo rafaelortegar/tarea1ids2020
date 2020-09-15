@@ -7,8 +7,12 @@
 | # | Alumno                           | Clave única |
 |---|-----------------------------------|-------------|
 | 1 | Angel Rafael Ortega Ramírez | 123972      |
-| 2 | Carlos Tabares         | CU      |
-
+| 2 | Leo         | CU      |
+| 3 | Toño         | CU      |
+| 4 | Mario         | CU      |
+| 5 | Carlos Román         | CU      |
+| 6 | Arthur         | CU      |
+| 7 | Carlos Bautista         | CU      |
 
 
 1. **Nombre del proyecto:** Envenenamiento por plomo
