@@ -1,5 +1,5 @@
 Descripción;Fuente 1;Fuente 2;Fuente 3;Fuente 4;Fuente 5
-Nombre;Censo;Shapefile de la ciudad;Registros catastrales;Censo económico;Registro de casos de envenenamiento por plomo
+<b>Nombre</b>;<b>Censo</b>;<b>Shapefile de la ciudad</b>;<b>Registros catastrales</b>;<b>Censo económico</b>;<b>Registro de casos de envenenamiento por plomo</b>
 ¿Qué es lo que contiene?;Distribución geográfica de la población por edad;Características geoespaciales de los inmuebles (tamaño, ubicación, densidad, etc);Registro de construcciones y remodelaciones de inmuebles;Características económicas de la población;Registro de envenenamientos por plomo en niños a nivel estatal
 ¿Cuál es el nivel de granularidad?;Manzana;Nivel inmueble;Nivel inmueble;Manzana;Condado
 ¿Con qué frecuencia es recolectado/actualizado?;10 años;10 años;Mensual;10 años;Mensual
