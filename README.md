@@ -15,23 +15,23 @@
 | 7 | Carlos Eduardo Bautista Pontanillo         | CU      |
 
 
-1. **Nombre del proyecto:** Envenenamiento por plomo
+ 1. **Nombre del proyecto:** Envenenamiento por plomo<br/><br/>
 
-2. **Nombre de la organización:** Departamento de Salud Pública de Chicago
+ 2. **Nombre de la organización:** Departamento de Salud Pública de Chicago<br/><br/>
 
-3. **Descripción del problema:**
+ 3. **Descripción del problema:**<br/><br/>
 
     3.1. ¿Cuál es el problema al que se enfrenta?
-    Casos de envenenamiento por plomo en niños en la ciudad de Chicago.
+    Casos de envenenamiento por plomo en niños en la ciudad de Chicago.<br/><br/>
  
     3.2. ¿Quién/qué es afectado por este problema?
-    Niños menores de 6 años.
+    Niños menores de 6 años.<br/><br/>
 
     3.3. ¿Cuántas personas/organizaciones/lugares/etc. y qué tanto son afectados?
-    De acuerdo con los datos demográficos de Chicago, existen alrededor de 2,693,976 personas, de las cuales 6.5% corresponden a niños con una edad debajo de 5 años, de los cuales se tuvieron 1,000 casos de envenenamiento reportados en 2014.
+    De acuerdo con los datos demográficos de Chicago, existen alrededor de 2,693,976 personas, de las cuales 6.5% corresponden a niños con una edad debajo de 5 años, de los cuales se tuvieron 1,000 casos de envenenamiento reportados en 2014.<br/><br/>
 
     3.4. ¿Por qué resolver este problema es una prioridad para la organización?
-    La población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida y la salud es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.
+    La población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida y la salud es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.<br/><br/>
 
 4. **Objetivos:** Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tiene? (en orden de prioridad). 
 
@@ -76,7 +76,7 @@
 |¿Con qué frecuencia es recolectado/actualizado?|10 años|10 años|Mensual|10 años|Mensual|
 |Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?|Sí|Sí|Sí|Sí|Sí|
 |¿Quién es el propietario interno de los datos?|Gobierno|Gobierno|Gobierno de Chicago|Gobierno|Gobierno (CDC)|
-|¿Cómo se almacena?|csv|shapefile|csv|shapefile|geojson|csv|csv|
+|¿Cómo se almacena?|csv|shapefile|csv,shapefile,geojson|csv|csv|
 |Comentarios adicionales|  |  |incertidumbre si la actualización de los datos y la disponibilidad son simultáneas|   |Serán útiles para tener un punto de comparación con el número de pruebas y envenenamientos en el Estado|
 
 

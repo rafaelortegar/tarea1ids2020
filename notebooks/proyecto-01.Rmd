@@ -86,16 +86,26 @@ class: inverse, middle
 # 06 Datos
   6.a. ¿Qué fuentes de datos internas tenemos internamente?
 
-|                         |Fuente 1                                                  |Fuente 2                           |
-|-------------------------|----------------------------------------------------------|-----------------------------------|
-|Nombre                   |Pruebas de sangre por envenenamiento por plomo (histórico)|Registros de inspección de plomo en inmuebles|
-|¿Qué es lo que contiene? |Número de niños envenenados por plomo y/o con alta exposición en años pasados|El nivel de riesgo en el inmueble por exposición a plomo y si existe o no presencia de niños|
-|¿Cuál es el nivel de granularidad?|Manzana|Por hogar|
-|¿Con qué frecuencia es recolectado/ actualizado después de ser capturado? |Mensual|Cada vez que se hace una nueva inspección en inmueble|
-|Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?|Sí|Sí|
-|¿Quién es el propietario interno de los datos?|Departamento de Salud Pública de Chicago|Departamento de Salud Pública de Chicago|
-|¿Cómo se almacena?|Dispositivo electrónico (con datos descargables en csv)|Dispositivo electrónico (con datos descargables en csv)|
-|Comentarios adicionales|      |      |
+```{r, echo = F}
+library(DT)
+
+data6 <- rbind.data.frame(
+c("Nombre", "Pruebas de sangre por envenenamiento por plomo (histórico)", "Registros de inspección de plomo en inmuebles"),
+c("¿Qué es lo que contiene?" , "Número de niños envenenados por plomo y/o con alta exposición en años pasados", "El nivel de riesgo en el inmueble por exposición a plomo y si existe o no presencia de niños"),
+c("¿Cuál es el nivel de granularidad?", "Manzana", "Por hogar"),
+c("¿Con qué frecuencia es recolectado/ actualizado después de ser capturado?" , "Mensual", "Cada vez que se hace una nueva inspección en inmueble"),
+c("Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?","Sí","Sí"),
+c("¿Quién es el propietario interno de los datos?", "Departamento de Salud Pública de Chicago", "Departamento de Salud Pública de Chicago"),
+c("¿Cómo se almacena?","Dispositivo electrónico (con datos descargables en csv)","Dispositivo electrónico (con datos descargables en csv)"),
+c("Comentarios adicionales"," "," ")
+)
+
+names(data6) <- c("Característica", "Fuente 01", "Fuente 02") 
+data6 %>% datatable(options = list(pageLength = 3,
+    initComplete = JS( "function(settings, json) {",
+    "$(this.api().table().header()).css({'background-color': '#000', 'color': '#fff'});","}")))
+
+```
 
 ---
 
@@ -114,7 +124,9 @@ class: inverse, middle
 
 
 ---
-  6.c. En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?
+  ### 6.c. En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?
+
+
    Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años: Se desea conocer las características de los hogares, las condiciones de trabajo y grado escolar de los padres de familia.
    
 
@@ -158,17 +170,5 @@ Visitas aleatorias a ubicaciones categorizadas como sin riesgo para verificar qu
 |Departamento de finanzas|Emisión de facturas|Proveedor de los recursos económicos|
 |Proveedor de infraestructura, servicios tecnológicos y almacenamiento de datos|Implementación de las herramientas requeridas|Proveedor de servicios e infraestructura|
 |Secretaría de Educación| Autorización y comunicación de inspecciones  |Encargado de informar y autorizar ingreso de inspectores a planteles educativos| 
-
----
-background-image: url(`r xaringan:::karl`)
-background-size: cover
-class: center, bottom, inverse
-
-# I was so happy to have discovered remark.js!
-
----
-class: inverse, middle, center
-
-# Using xaringan
 
 ---
