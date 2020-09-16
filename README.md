@@ -54,7 +54,7 @@
 <br/>
 
 6. **Datos** <br/>
-    A. *¿Qué fuentes de datos internas tenemos internamente?*<br/><br/>
+    A. *¿Qué fuentes de datos tenemos internamente?*<br/><br/>
 
 |                         |Fuente 1                                                  |Fuente 2                           |
 |-------------------------|----------------------------------------------------------|-----------------------------------|
