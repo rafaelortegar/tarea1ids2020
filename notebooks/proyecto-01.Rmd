@@ -170,8 +170,8 @@ data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 1, 
 ---
 # 09 ¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?
 
-Prueba por permutación. Para determinar si a los inmuebles donde se encontró riesgo por plomo, en las pruebas de sangre se detectó mayor plomo.
-Visitas aleatorias a ubicaciones categorizadas como sin riesgo para verificar que en efecto no existen riesgos de exposición de niños a plomo.
+* ***Prueba por permutación***. Para determinar si a los inmuebles donde se encontró riesgo por plomo, en las pruebas de sangre se detectó mayor plomo.
+* ***Visitas aleatorias a ubicaciones categorizadas como sin riesgo*** para verificar que en efecto no existen riesgos de exposición de niños a plomo.
 
 ---
 # 10 ¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?
