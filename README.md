@@ -33,7 +33,7 @@
     3.4. ¿Por qué resolver este problema es una prioridad para la organización?
     La población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida y la salud es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.<br/><br/>
 
-4. **Objetivos:** Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tiene? (en orden de prioridad). 
+4. **Objetivos:** Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tiene? (en orden de prioridad). <br/><br/>
 
 
 | #|Objetivo       | Limitaciones  |
@@ -42,7 +42,7 @@
 |2 |Mejorar la precisión de las inspecciones  e intervenciones por el departamento de salud en lugares de riesgo a exposición.|Número limitado de inspectores con los que cuenta el departamento de salud.|
 
 
-5. **Acciones**
+5. **Acciones**<br/><br/>
 
 |                                |Acción 1                 |Acción 2                  |
 |--------------------------------|-------------------------|--------------------------|
@@ -52,8 +52,8 @@
 |¿Con qué frecuencia hay que tomar la acción?|Diaria|Cada vez que haya sido detectado un niño con exposición a plomo en el inmueble|
 |¿Qué canales se usan o se pueden usar para tomar esta acción?|Censos e inventarios de inmuebles, Resultados de años anteriores|Listado de inmuebles detectados como riesgosos|
 
-6. **Datos**
-    A. ¿Qué fuentes de datos internas tenemos internamente?
+6. **Datos**<br/><br/>
+    A. ¿Qué fuentes de datos internas tenemos internamente?<br/><br/>
 
 |                         |Fuente 1                                                  |Fuente 2                           |
 |-------------------------|----------------------------------------------------------|-----------------------------------|
@@ -66,7 +66,7 @@
 |¿Cómo se almacena?|Dispositivo electrónico (con datos descargables en csv)|Dispositivo electrónico (con datos descargables en csv)|
 |Comentarios adicionales|      |      |
 
-   B. ¿Qué datos se pueden obtener de fuentes externas, privadas o públicas?
+   B. ¿Qué datos se pueden obtener de fuentes externas, privadas o públicas?<br/><br/>
 
 |   |Fuente 1|Fuente 2|Fuente 3|Fuente 4|Fuente 5|
 |---|--------|--------|--------|--------|--------|
@@ -81,10 +81,10 @@
 
 
    C.En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?
-   Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años: Se desea conocer las características de los hogares, las condiciones de trabajo y grado escolar de los padres de familia.
+   Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años: Se desea conocer las características de los hogares, las condiciones de trabajo y grado escolar de los padres de familia.<br/><br/>
 
 
-7. **Análisis**
+7. **Análisis**<br/><br/>
 
 |  |Análisis 1:|Análisis 2:|
 |--|-----------|-----------|
@@ -93,7 +93,7 @@
 |¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|Los lugares a los que se realizará la inspección|
 |¿Cómo se validará el análisis utilizando datos existentes? ¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
 
-8. **Consideraciones éticas**
+8. **Consideraciones éticas**<br/><br/>
 
 
 | Consideración | Descripción|
@@ -105,13 +105,13 @@
 |Responsabilidad ¿Quiénes son las personas responsables por todo lo establecido anteriormente?|Departamento de salud pública de Chicago, Consultores de ciencia de datos, Proveedores de infraestructura tecnológica y de servicios de almacenamiento y recolección de datos, Inspectores empleados|
 |Otras consideraciones como consentimiento, leyes, etc.|Entrar a escuelas e inmuebles para realizar mediciones de factores de riesgo, así como realizar tomas de sangre.|
 
-9. **¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?**
+9. **¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?**<br/><br/>
 
 Prueba por permutación. Para determinar si a los inmuebles donde se encontró riesgo por plomo, en las pruebas de sangre se detectó mayor plomo.
-Visitas aleatorias a ubicaciones categorizadas como sin riesgo para verificar que en efecto no existen riesgos de exposición de niños a plomo.
+Visitas aleatorias a ubicaciones categorizadas como sin riesgo para verificar que en efecto no existen riesgos de exposición de niños a plomo.<br/><br/>
 
 
-10. **¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?**
+10. **¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?**<br/><br/>
 
 |Organización/Departamento|Descripción del involucramiento deseado|Nombre / Rol de Contraparte|
 |-------------------------|---------------------------------------|---------------------------|
