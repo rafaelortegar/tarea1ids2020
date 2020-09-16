@@ -30,7 +30,7 @@
     3.3. ***¿Cuántas personas/organizaciones/lugares/etc. y qué tanto son afectados?***
     De acuerdo con los datos demográficos de Chicago, existen alrededor de 2,693,976 personas, de las cuales 6.5% corresponden a niños con una edad debajo de 5 años, de los cuales se tuvieron 1,000 casos de envenenamiento reportados en 2014.<br/><br/>
 
-    3.4. ¿Por qué resolver este problema es una prioridad para la organización?
+    3.4. ***¿Por qué resolver este problema es una prioridad para la organización?***
     La población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida y la salud es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.<br/><br/>
 
 4. **Objetivos:** Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tiene? (en orden de prioridad). <br/><br/>
