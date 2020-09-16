@@ -89,8 +89,8 @@
 
 7. **Análisis**<br/><br/>
 
-|  |Análisis 1:|Análisis 2:|
-|--|-----------|-----------|
+|  |Análisis 1:|
+|--|-----------|
 |Tipo de Análisis|Clasificación|
 |Propósito del análisis|Dividir los inmuebles en categorías de riesgo y sin riesgo.|
 |¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|
