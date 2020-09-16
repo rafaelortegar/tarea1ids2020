@@ -91,11 +91,14 @@
 
 |  |Análisis 1:|Análisis 2:|
 |--|-----------|-----------|
-|Tipo de Análisis|Clasificación|Scoring|
-|Propósito del análisis|Dividir los inmuebles en categorías de riesgo y sin riesgo.|Otorgar una calificación a los inmuebles categorizados como en riesgo para priorizar orden de inspecciones|
-|¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|Los lugares a los que se realizará la inspección|
-|¿Cómo se validará el análisis utilizando datos existentes? <br/><br/>  ¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
+|Tipo de Análisis|Clasificación|
+|Propósito del análisis|Dividir los inmuebles en categorías de riesgo y sin riesgo.|
+|¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|
+|¿Cómo se validará el análisis utilizando datos existentes? <br/><br/>  ¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
 <br/>
+
+Los resultados se entregarán al cliente mediante un scoring, con el fin de otorgar una calificación a los inmuebles categorizados como en riesgo para priorizar orden de inspecciones.
+
 
 8. **Consideraciones éticas**<br/><br/>
 
