@@ -1,0 +1,46 @@
+.title-slide h1 {
+  font-size: 40px;
+  color: white;
+}
+.title-slide h2 {
+  font-size: 30px;
+   clolor: white;
+}
+
+.title-slide h3:nth-of-type(1) {
+    font-size: 20px;
+    color: gray;
+}
+.title-slide h3:nth-of-type(2) {
+    font-size: 20px;
+    color: gray;
+}
+.title-slide h3:nth-of-type(3) {
+    font-size: 20px;
+    color: gray;
+}
+.title-slide h3:nth-of-type(4) {
+    font-size: 20px;
+    color: gray;
+}
+.title-slide h3:nth-of-type(5) {
+    font-size: 20px;
+    color: gray;
+}
+.title-slide h3:nth-of-type(6) {
+    font-size: 20px;
+    color: gray;
+}
+.title-slide h3:nth-of-type(7) {
+    font-size: 20px;
+    color: gray;
+}
+
+.title-slide h3:nth-of-type(8) {
+    font-size: 25px;
+    color: white;
+}
+.title-slide h3:nth-of-type(9) {
+    font-size: 15px;
+    color: gray;
+}
