@@ -8,11 +8,11 @@
 |---|-----------------------------------|-------------|
 | 1 | Angel Rafael Ortega Ramírez | 123972      |
 | 2 | Leonardo Ceja Pérez         | 197818      |
-| 3 | Toño         | CU      |
-| 4 | Mario         | CU      |
+| 3 | José Antonio Lechuga Rivera         | CU      |
+| 4 | Mario Arturo Heredia Trejo        | CU      |
 | 5 | Carlos Román López Sierra        | 197911      |
 | 6 | Oscar Arturo Bringas López         | 197814      |
-| 7 | Carlos Bautista         | CU      |
+| 7 | Carlos Eduardo Bautista Pontanillo         | CU      |
 
 
 1. **Nombre del proyecto:** Envenenamiento por plomo
@@ -23,7 +23,7 @@
 
     3.1. ¿Cuál es el problema al que se enfrenta?
     Casos de envenenamiento por plomo en niños en la ciudad de Chicago.
-
+ 
     3.2. ¿Quién/qué es afectado por este problema?
     Niños menores de 6 años.
 
