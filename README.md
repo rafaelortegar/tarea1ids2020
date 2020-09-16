@@ -11,7 +11,7 @@
 | 3 | Toño         | CU      |
 | 4 | Mario         | CU      |
 | 5 | Carlos Román         | CU      |
-| 6 | Arthur         | CU      |
+| 6 | Arthur         | 197814      |
 | 7 | Carlos Bautista         | CU      |
 
 
