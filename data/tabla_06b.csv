@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Descripción	Fuente 1	Fuente 2	Fuente 3	Fuente 4	Fuente 5
 Nombre	Censo	Shapefile de la ciudad	Registros catastrales	Censo económico	Registro de casos de envenenamiento por plomo
 ¿Qué es lo que contiene?	Distribución geográfica de la población por edad	Características geoespaciales de los inmuebles (tamaño, ubicación, densidad, etc)	Registro de construcciones y remodelaciones de inmuebles	Características económicas de la población	Registro de envenenamientos por plomo en niños a nivel estatal
@@ -7,3 +8,14 @@ Tiene identificadores confiables y únicos que pueden ser conectados a otras fue
 ¿Quién es el propietario interno de los datos?	Gobierno	Gobierno	Gobierno de Chicago	Gobierno	Gobierno (CDC)
 ¿Cómo se almacena?	csv	Shapefile	csv<br/><br/>shapefile<br/><br/>geojson	csv	csv
 Comentarios adicionales			incertidumbre si la actualización de los datos y la disponibilidad son simultáneas		Serán útiles para tener un punto de comparación con el número de pruebas y envenenamientos en el Estado
+=======
+Descripción;Fuente 1;Fuente 2;Fuente 3;Fuente 4;Fuente 5
+Nombre;Censo;Shapefile de la ciudad;Registros catastrales;Censo económico;Registro de casos de envenenamiento por plomo
+¿Qué es lo que contiene?;Distribución geográfica de la población por edad;Características geoespaciales de los inmuebles (tamaño\, ubicación\, densidad\, etc);Registro de construcciones y remodelaciones de inmuebles;Características económicas de la población;Registro de envenenamientos por plomo en niños a nivel estatal
+¿Cuál es el nivel de granularidad?;Manzana;Nivel inmueble;Nivel inmueble;Manzana;Condado
+¿Con qué frecuencia es recolectado/actualizado?;10 años;10 años;Mensual;10 años;Mensual
+Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?;Sí;Sí;Sí;Sí;Sí
+¿Quién es el propietario interno de los datos?;Gobierno;Gobierno;Gobierno de Chicago;Gobierno;Gobierno (CDC)
+¿Cómo se almacena?;csv;Shapefile;csv,shapefile,geojson;csv;csv
+Comentarios adicionales;;;incertidumbre si la actualización de los datos y la disponibilidad son simultáneas;;Serán útiles para tener un punto de comparación con el número de pruebas y envenenamientos en el Estado
+>>>>>>> 1f5ae2043c4ca6db3464ba6d4322043ff65bc9d3
