@@ -8,7 +8,7 @@
 |---|-----------------------------------|-------------|
 | 1 | Angel Rafael Ortega Ramírez | 123972      |
 | 2 | Leonardo Ceja Pérez         | 197818      |
-| 3 | José Antonio Lechuga Rivera         | CU      |
+| 3 | José Antonio Lechuga Rivera         | 192610      |
 | 4 | Mario Arturo Heredia Trejo        | CU      |
 | 5 | Carlos Román López Sierra        | 197911      |
 | 6 | Oscar Arturo Bringas López         | 197814      |
@@ -64,7 +64,7 @@
 |**¿Con qué frecuencia es recolectado/ actualizado después de ser capturado?** |Mensual|Cada vez que se hace una nueva inspección en inmueble|
 |**Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?**|Sí|Sí|
 |**¿Quién es el propietario interno de los datos?**|Departamento de Salud Pública de Chicago|Departamento de Salud Pública de Chicago|
-|**¿Cómo se almacena?|Dispositivo electrónico (con datos descargables en csv)**|Dispositivo electrónico (con datos descargables en csv)|
+|**¿Cómo se almacena?**|Dispositivo electrónico (con datos descargables en csv)|Dispositivo electrónico (con datos descargables en csv)|
 |**Comentarios adicionales**|      |      |
 <br/>
 
