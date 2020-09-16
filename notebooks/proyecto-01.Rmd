@@ -137,7 +137,10 @@ data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 3, 
   ### 6.c. En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?
 
 
-   Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años: Se desea conocer las características de los hogares, las condiciones de trabajo y grado escolar de los padres de familia.
+   Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años. Se desea conocer:
+   * Características de los hogares
+   * Condiciones de trabajo 
+   * Grado escolar de los padres de familia.
 
 
 
@@ -146,13 +149,15 @@ data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 3, 
 .tiny[
 # 07 Análisis
  
-|  |Análisis 1:|Análisis 2:|
-|--|-----------|-----------|
-|Tipo de Análisis|Clasificación|Scoring|
-|Propósito del análisis|Dividir los inmuebles en categorías de riesgo y sin riesgo.|Otorgar una calificación a los inmuebles categorizados como en riesgo para priorizar orden de inspecciones|
-|¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|Los lugares a los que se realizará la inspección|
-|¿Cómo se validará el análisis utilizando datos existentes? <br/><br/>¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
+|  |Análisis 1:|
+|--|-----------|
+|Tipo de Análisis|Clasificación|
+|Propósito del análisis|Dividir los inmuebles en categorías de riesgo y sin riesgo.|
+|¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|
+|¿Cómo se validará el análisis utilizando datos existentes? <br/><br/>  ¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
 ]
+
+Los resultados se entregarán al cliente mediante un scoring, con el fin de otorgar una calificación a los inmuebles categorizados como en riesgo para priorizar orden de inspecciones.
 ```{css, echo = FALSE}
 .tiny { 
   font-size: 87%;
