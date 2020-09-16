@@ -12,7 +12,7 @@
 | 4 | Mario Arturo Heredia Trejo        | 197863      |
 | 5 | Carlos Román López Sierra        | 197911      |
 | 6 | Oscar Arturo Bringas López         | 197814      |
-| 7 | Carlos Eduardo Bautista Pontanillo         | CU      |
+| 7 | Carlos Eduardo Bautista Pontanillo         | 125761      |
 
 
  1. **Nombre del proyecto:** Envenenamiento por plomo<br/><br/>
