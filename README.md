@@ -9,7 +9,7 @@
 | 1 | Angel Rafael Ortega Ramírez | 123972      |
 | 2 | Leonardo Ceja Pérez         | 197818      |
 | 3 | José Antonio Lechuga Rivera         | 192610      |
-| 4 | Mario Arturo Heredia Trejo        | CU      |
+| 4 | Mario Arturo Heredia Trejo        | 197863      |
 | 5 | Carlos Román López Sierra        | 197911      |
 | 6 | Oscar Arturo Bringas López         | 197814      |
 | 7 | Carlos Eduardo Bautista Pontanillo         | CU      |
