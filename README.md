@@ -33,17 +33,16 @@
     3.4. ¿Por qué resolver este problema es una prioridad para la organización?
 En materia de salud y prevención, la población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.
 
-4. Objetivos: Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tiene? (en orden de prioridad). 
+4. **Objetivos:** Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tiene? (en orden de prioridad). 
 
 
 | #|Objetivo       | Limitaciones  |
 |--|---------------|---------------|
 |1 |Reducir el número de casos de envenenamiento por plomo en niños.|No es cuantificable a corto plazo y no lleva a una acción concreta.|
 |2 |Mejorar la precisión de las inspecciones  e intervenciones por el departamento de salud en lugares de riesgo a exposición.|Número limitado de inspectores con los que cuenta el departamento de salud.|
-|3 |Incrementar la atención médica oportuna a niños con exposición a plomo.|Número restringido de especialistas de la salud con los que se cuenta.|
 
 
-5. Acciones
+5. **Acciones**
 
 |                                |Acción 1                 |Acción 2                  |
 |--------------------------------|-------------------------|--------------------------|
@@ -53,7 +52,7 @@ En materia de salud y prevención, la población infantil resulta especialmente 
 |¿Con qué frecuencia hay que tomar la acción?|Diaria|Cada vez que haya sido detectado un niño con exposición a plomo en el inmueble|
 |¿Qué canales se usan o se pueden usar para tomar esta acción?|Censos e inventarios de inmuebles, Resultados de años anteriores|Listado de inmuebles detectados como riesgosos|
 
-6. Datos
+6. **Datos**
     A. ¿Qué fuentes de datos internas tenemos internamente?
 
 |                         |Fuente 1                                                  |Fuente 2                           |
@@ -85,7 +84,7 @@ En materia de salud y prevención, la población infantil resulta especialmente 
    Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años: Se desea conocer las características de los hogares, las condiciones de trabajo y grado escolar de los padres de familia.
 
 
-7. Análisis
+7. **Análisis**
 
 |  |Análisis 1:|Análisis 2:|
 |--|-----------|-----------|
@@ -94,7 +93,7 @@ En materia de salud y prevención, la población infantil resulta especialmente 
 |¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|Los lugares a los que se realizará la inspección|
 |¿Cómo se validará el análisis utilizando datos existentes? ¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
 
-8. Consideraciones éticas
+8. **Consideraciones éticas**
 
 
 | Consideración | Descripción|
@@ -106,13 +105,13 @@ En materia de salud y prevención, la población infantil resulta especialmente 
 |Responsabilidad ¿Quiénes son las personas responsables por todo lo establecido anteriormente?|Departamento de salud pública de Chicago, Consultores de ciencia de datos, Proveedores de infraestructura tecnológica y de servicios de almacenamiento y recolección de datos, Inspectores empleados|
 |Otras consideraciones como consentimiento, leyes, etc.|Entrar a escuelas e inmuebles para realizar mediciones de factores de riesgo, así como realizar tomas de sangre.|
 
-9. ¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?
+9. **¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?**
 
 Prueba por permutación. Para determinar si a los inmuebles donde se encontró riesgo por plomo, en las pruebas de sangre se detectó mayor plomo.
 Visitas aleatorias a ubicaciones categorizadas como sin riesgo para verificar que en efecto no existen riesgos de exposición de niños a plomo.
 
 
-10. ¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?
+10. **¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?**
 
 |Organización/Departamento|Descripción del involucramiento deseado|Nombre / Rol de Contraparte|
 |-------------------------|---------------------------------------|---------------------------|
