@@ -1,6 +1,6 @@
 ---
 title: "Proyecto 01: Introducción a Ciencia de Datos"
-subtitle: "⚔<br/>with xaringan"
+#subtitle: "⚔<br/>with xaringan"
 author: 
   - Angel Rafael Ortega Ramírez
   - Leonardo Ceja Pérez
@@ -18,6 +18,9 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+
+
+                  
 ---    
 
 class: center, middle
@@ -35,7 +38,7 @@ class: center, middle
 Departamento de Salud Pública de Chicago
 
 ---
-class: inverse, middle
+class:  middle
 
 ## 03 Descripción del problema
   
@@ -47,23 +50,25 @@ class: inverse, middle
   Niños menores de 6 años.
 
 ---
-class: inverse, middle
+class:  middle
 
 ## 03 Descripción del problema
 
 
   #### 3.3. ¿Cuántas personas/organizaciones/lugares/etc. y qué tanto son afectados?
-
-  De acuerdo con los datos demográficos de Chicago, existen alrededor de 2,693,976 personas, de las cuales 6.5% corresponden a niños con una edad debajo de 5 años, de los cuales se tuvieron 1,000 casos de envenenamiento reportados en 2014.
+  
+  En el año 2014, se reportaron **1,000** casos de [envenenamiento en niños en Chicago](https://web.archive.org/web/20150801021423/http://www.myfoxchicago.com/story/29655450/1000-kids-diagnosed-with-lead-poisoning). Como referencia, y de acuerdo con los datos demográficos de Chicago, existen alrededor de **2,693,976** personas, de las cuales **6.5%** corresponden a niños con una edad debajo de 5 años
+  
 
   #### 3.4. ¿Por qué resolver este problema es una prioridad para la organización?
 
-  La población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida y la salud es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.
+  Es de alta importancia la prevención de envenenamiento por plomo debido a que puede tardar meses o incluso años en presentar síntomas, con lo cual suele ser detectada cuando los niveles de intoxicación son altos. <br/><br/>
+  Por otro lado, la población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida y la salud es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.
 ---
 
 # 04 Objetivos
 
-¿Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tiene? (en orden de prioridad). 
+¿Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tienen? (en orden de prioridad). 
 
 
 | |Objetivo       | Limitaciones  |
@@ -75,22 +80,22 @@ class: inverse, middle
 # 05 Acciones
 |                                |Acción 1                 |Acción 2                  |
 |--------------------------------|-------------------------|--------------------------|
-|Acción:                         |Efectuar las inspecciones|Brindar servicio de minimización de elementos riesgosos|
-|¿Quién está ejecutando la acción?|Inspectores|Inspectores|
+|Acción                         |Efectuar las inspecciones|Brindar servicio de minimización de elementos riesgosos|
+|¿Quién está ejecutando la acción?|Inspectores|Interventores de Salud|
 |¿Sobre quién o qué se está ejecutando la acción?|Inmuebles enlistados|Inmuebles detectados con riesgo de plomo|
 |¿Con qué frecuencia hay que tomar la acción?|Diaria|Cada vez que haya sido detectado un niño con exposición a plomo en el inmueble|
-|¿Qué canales se usan o se pueden usar para tomar esta acción?|Censos e inventarios de inmuebles, Resultados de años anteriores|Listado de inmuebles detectados como riesgosos|
+|¿Qué canales se usan o se pueden usar para tomar esta acción?|En persona|En persona|
 
 
 ---
 # 06 Datos
-  6.a. ¿Qué fuentes de datos internas tenemos internamente?
+  6.a. ¿Qué fuentes de datos internas tenemos?
 
 ```{r, echo = F}
 library(DT)
 
 data6 <- rbind.data.frame(
-c("Nombre", "Pruebas de sangre por envenenamiento por plomo (histórico)", "Registros de inspección de plomo en inmuebles"),
+c("<b>Nombre</b>", "<b>Pruebas de sangre por envenenamiento por plomo (histórico)</b>", "<b>Registros de inspección de plomo en inmuebles</b>"),
 c("¿Qué es lo que contiene?" , "Número de niños envenenados por plomo y/o con alta exposición en años pasados", "El nivel de riesgo en el inmueble por exposición a plomo y si existe o no presencia de niños"),
 c("¿Cuál es el nivel de granularidad?", "Manzana", "Por hogar"),
 c("¿Con qué frecuencia es recolectado/ actualizado después de ser capturado?" , "Mensual", "Cada vez que se hace una nueva inspección en inmueble"),
@@ -197,6 +202,15 @@ data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 3, 
 
 ---
 
-#gracias :) poner algo aqui
+# ¿Preguntas?
+
+  * Introducción y descripción
+  * Objetivos
+  * Acciones
+  * Datos
+  * Análisis
+  * Consideraciones éticas
+  * Validación
+  * Organizaciones Involucradas
 
 
