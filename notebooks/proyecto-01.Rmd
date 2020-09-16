@@ -180,13 +180,20 @@ data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 1, 
 ---
 # 10 ¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?
 
-|Organización/Departamento|Descripción del involucramiento deseado|Nombre / Rol de Contraparte|
-|-------------------------|---------------------------------------|---------------------------|
-|Departamento de salud pública de Chicago|En todos los pasos del proyecto|Tomadores de decisiones|
-|Gobierno de Illinois|Conocer los objetivos del proyecto|Facilitador de información|
-|Departamento de finanzas|Emisión de facturas|Proveedor de los recursos económicos|
-|Proveedor de infraestructura, servicios tecnológicos y almacenamiento de datos|Implementación de las herramientas requeridas|Proveedor de servicios e infraestructura|
-|Secretaría de Educación| Autorización y comunicación de inspecciones  |Encargado de informar y autorizar ingreso de inspectores a planteles educativos| 
+```{r, echo = F, warning=F, message=F}
+library(readr)
+library(tidyverse)
+library(DT)
+
+# data08 <- read_csv2("tarea1ids2020/data/tabla_06b.csv")
+data08 <- read_csv2("../data/tabla_10.csv")
+
+data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 3, scrollY = '279px', paging = T,
+    initComplete = JS("function(settings, json) {",
+    "$(this.api().table().header()).css({'font-size': '70%','background-color': '#000', 'color': '#fff'});","}"))) %>%
+    formatStyle(1:3, 'vertical-align'='top',fontSize = '80%')
+
+```
 
 ---
 
