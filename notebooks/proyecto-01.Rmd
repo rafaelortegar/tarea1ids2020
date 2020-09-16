@@ -1,7 +1,7 @@
 ---
 title: "Proyecto 01: Introducción a Ciencia de Datos"
-#subtitle: "⚔<br/>with xaringan"
-author: 
+subtitle: ":espadas_cruzadas:<br/> with xaringan"
+author:
   - Angel Rafael Ortega Ramírez
   - Leonardo Ceja Pérez
   - Carlos Román López Sierra
@@ -13,14 +13,12 @@ institute: "ITAM"
 date: "2020/09/17 "
 output:
   xaringan::moon_reader:
+    css: [default, my-theme.css]
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
-      countIncrementalSlides: false
-
-
-                  
+      countIncrementalSlides: false               
 ---    
 
 class: center, middle
@@ -184,7 +182,7 @@ data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 1, 
 ---
 # 09 ¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?
 
-* ***Prueba por permutación***. Para determinar si a los inmuebles donde se encontró riesgo por plomo, en las pruebas de sangre se detectó mayor plomo.
+* ***Prueba por permutación*** para determinar si a los inmuebles donde se encontró riesgo por plomo, se detectó mayores concentraciones de plomo en las pruebas de sangre.<br/><br/>
 * ***Visitas aleatorias a ubicaciones categorizadas como sin riesgo*** para verificar que en efecto no existen riesgos de exposición de niños a plomo.
 
 ---
