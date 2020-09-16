@@ -7,11 +7,11 @@
 | # | Alumno                           | Clave única |
 |---|-----------------------------------|-------------|
 | 1 | Angel Rafael Ortega Ramírez | 123972      |
-| 2 | Leo         | CU      |
+| 2 | Leonardo Ceja Pérez         | 197818      |
 | 3 | Toño         | CU      |
 | 4 | Mario         | CU      |
-| 5 | Carlos Román         | CU      |
-| 6 | Arthur         | 197814      |
+| 5 | Carlos Román López Sierra        | 197911      |
+| 6 | Oscar Arturo Bringas López         | 197814      |
 | 7 | Carlos Bautista         | CU      |
 
 
@@ -45,23 +45,23 @@ En materia de salud y prevención, la población infantil resulta especialmente 
 
 5. Acciones
 
-| |Acción 1|Acción 2|Acción 3|Acción 4|
-|-|--------|--------|--------|--------|
-|Acción:|Efectuar las inspecciones|Brindar servicio de minimización de elementos riesgosos|Evaluar el efecto o daño producido por la exposición al plomo en el niño|Canalizar con especialista en salud para revertir o detener daños|
-|¿Quién está ejecutando la acción?|Inspectores|Inspectores|Equipo médico|Equipo médico|
-|¿Sobre quién o qué se está ejecutando la acción?|Inmuebles enlistados|Inmuebles detectados con riesgo de plomo|Niños expuestos a plomo|Niños con daños o alta exposición a riesgo|
-|¿Con qué frecuencia hay que tomar la acción?|Diaria|Cada vez que haya sido detectado un niño con exposición a plomo en el inmueble|Cada vez que haya sido detectado un niño con exposición a plomo en el inmueble|Cada vez que haya sido detectado un niño con exposición a plomo|
-|¿Qué canales se usan o se pueden usar para tomar esta acción?|Censos e inventarios de inmuebles|Resultados de años anteriores|Listado de inmuebles detectados como riesgosos|Servicio de atención médica subcontratado|Hospitales locales de la comunidad|Más información útil sobre la acción.|
+|                                |Acción 1                 |Acción 2                  |
+|--------------------------------|-------------------------|--------------------------|
+|Acción:                         |Efectuar las inspecciones|Brindar servicio de minimización de elementos riesgosos|
+|¿Quién está ejecutando la acción?|Inspectores|Inspectores|
+|¿Sobre quién o qué se está ejecutando la acción?|Inmuebles enlistados|Inmuebles detectados con riesgo de plomo|
+|¿Con qué frecuencia hay que tomar la acción?|Diaria|Cada vez que haya sido detectado un niño con exposición a plomo en el inmueble|
+|¿Qué canales se usan o se pueden usar para tomar esta acción?|Censos e inventarios de inmuebles, Resultados de años anteriores|Listado de inmuebles detectados como riesgosos|
 
 6. Datos
     A. ¿Qué fuentes de datos internas tenemos internamente?
 
-|        |Fuente 1|Fuente 2|
-|--------|--------|--------|
-|Nombre  |Pruebas de sangre por envenenamiento por plomo|Registros de inspección de plomo en inmuebles|
-|¿Qué es lo que contiene?|Concentración de plomo en la sangre de los niños|El nivel de riesgo en el inmueble por exposición a plomo y si existe o no presencia de niños|
-|¿Cuál es el nivel de granularidad?|Por individuo al que se le aplica la prueba|Por hogar|
-|¿Con qué frecuencia es recolectado/ actualizado después de ser capturado? |Cada vez que se detecta que un niño ha sido detectado en riesgo por exposición al plomo|Cada vez que se hace una nueva inspección en inmueble|
+|                         |Fuente 1                                                  |Fuente 2                           |
+|-------------------------|----------------------------------------------------------|-----------------------------------|
+|Nombre                   |Pruebas de sangre por envenenamiento por plomo (histórico)|Registros de inspección de plomo en inmuebles|
+|¿Qué es lo que contiene? |Número de niños envenenados por plomo y/o con alta exposición en años pasados|El nivel de riesgo en el inmueble por exposición a plomo y si existe o no presencia de niños|
+|¿Cuál es el nivel de granularidad?|Manzana|Por hogar|
+|¿Con qué frecuencia es recolectado/ actualizado después de ser capturado? |Mensual|Cada vez que se hace una nueva inspección en inmueble|
 |Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?|Sí|Sí|
 |¿Quién es el propietario interno de los datos?|Departamento de Salud Pública de Chicago|Departamento de Salud Pública de Chicago|
 |¿Cómo se almacena?|Dispositivo electrónico (con datos descargables en csv)|Dispositivo electrónico (con datos descargables en csv)|
@@ -96,8 +96,10 @@ En materia de salud y prevención, la población infantil resulta especialmente 
 
 8. Consideraciones éticas
 
-|Privacidad ¿Se trabaja con datos personales y/o sensibles que pueden ser identificados identificables? Mencionarlos|La presencia de niños en una casa específica, La situación de salud de un individuo,Dirección del domicilio,Bienes materiales dentro de una vivienda,Identidad de los habitantes de la casa|
+
+| Consideración | Descripción|
 |------|--------|
+|Privacidad ¿Se trabaja con datos personales y/o sensibles que pueden ser identificados identificables? Mencionarlos|La presencia de niños en una casa específica, La situación de salud de un individuo,Dirección del domicilio,Bienes materiales dentro de una vivienda,Identidad de los habitantes de la casa|
 |Transparencia ¿Qué stakeholders deben estar informados sobre qué partes del proyecto?|Director del departamento de salud, sobre los planes de implementación de médicos.    Director del departamento de inspección, sobre la forma en la que se utilizarán los inspectores.     Departamento de T.I. o proveedores de servicios tecnológicos, sobre utilización de tablets y desarrollo de una plataforma para la implementación de las inspecciones.    Autoridades policiacas locales, sobre el hecho que habrá personas realizando inspecciones en ciertos días en ciertos lugares.    Dirección de educación pública, sobre que se planean realizar pruebas de sangre en escuelas.|
 |Discriminación/Equidad ¿Existen grupos específicos para quienes se busca asegurar equidad en los resultados?|Habitantes de zonas marginadas y conglomerados poblacionales con poca población. Personas de minorías raciales. Familias monoparentales.|
 |Licencia Social Sí toda la población del país se enterara del proyecto, ¿estarían de acuerdo con él? ¿Por qué?|En general, la población estaría de acuerdo en minimizar factores de riesgo en la salud de los niños. Aunque pueden existir personas que se opongan a que un extraño entre a su domicilio y a la toma de muestras de sangre.|
