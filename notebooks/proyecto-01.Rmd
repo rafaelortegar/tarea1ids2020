@@ -112,16 +112,20 @@ data6 %>% datatable(escape=FALSE, rownames=FALSE, options = list(scrollY = '360p
 
   6.b. ¿Qué datos se pueden obtener de fuentes externas, privadas o públicas?
 
-|   |Fuente 1|Fuente 2|Fuente 3|Fuente 4|Fuente 5|
-|---|--------|--------|--------|--------|--------|
-|Nombre|Censo|Shapefile de la ciudad|Registros catastrales|Censo económico|Registro de casos de envenenamiento por plomo|
-|¿Qué es lo que contiene?|Distribución geográfica de la población por edad|Características geoespaciales de los inmuebles (tamaño, ubicación, densidad, etc)|Registro de construcciones y remodelaciones de inmuebles|Características económicas de la población|Registro de envenenamientos por plomo en niños a nivel estatal|
-|¿Cuál es el nivel de granularidad?|Manzana|Nivel inmueble|Nivel inmueble|Manzana|Condado|
-|¿Con qué frecuencia es recolectado/actualizado?|10 años|10 años|Mensual|10 años|Mensual|
-|Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?|Sí|Sí|Sí|Sí|Sí|
-|¿Quién es el propietario interno de los datos?|Gobierno|Gobierno|Gobierno de Chicago|Gobierno|Gobierno (CDC)|
-|¿Cómo se almacena?|csv|shapefile|csv|shapefile|geojson|csv|csv|
-|Comentarios adicionales|  |  |incertidumbre si la actualización de los datos y la disponibilidad son simultáneas|   |Serán útiles para tener un punto de comparación con el número de pruebas y envenenamientos en el Estado|
+```{r, echo = F, warning=F, message=F}
+library(readr)
+library(tidyverse)
+library(DT)
+
+# data08 <- read_csv2("tarea1ids2020/data/tabla_06b.csv")
+data08 <- read_csv2("../data/tabla_06b.csv")
+
+data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 3, scrollY = '390px', paging = T,
+    initComplete = JS("function(settings, json) {",
+    "$(this.api().table().header()).css({'font-size': '72%','background-color': '#000', 'color': '#fff'});","}"))) %>%
+    formatStyle(1:6, 'vertical-align'='top',fontSize = '72%')
+
+```
 
 
 ---
