@@ -18,7 +18,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
----
+---    
 
 class: center, middle
 
@@ -101,9 +101,10 @@ c("Comentarios adicionales"," "," ")
 )
 
 names(data6) <- c("Característica", "Fuente 01", "Fuente 02") 
-data6 %>% datatable(options = list(pageLength = 3,
+data6 %>% datatable(escape=FALSE, rownames=FALSE, options = list(scrollY = '360px',pageLength = 4,
     initComplete = JS( "function(settings, json) {",
-    "$(this.api().table().header()).css({'background-color': '#000', 'color': '#fff'});","}")))
+    "$(this.api().table().header()).css({'background-color': '#000', 'color': '#fff'});","}")))%>%
+    formatStyle(1:3, 'vertical-align'='top',fontSize = '88%')
 
 ```
 
@@ -128,31 +129,43 @@ data6 %>% datatable(options = list(pageLength = 3,
 
 
    Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años: Se desea conocer las características de los hogares, las condiciones de trabajo y grado escolar de los padres de familia.
-   
+
+
 
 ---
 
+.tiny[
 # 07 Análisis
-
+ 
 |  |Análisis 1:|Análisis 2:|
 |--|-----------|-----------|
 |Tipo de Análisis|Clasificación|Scoring|
 |Propósito del análisis|Dividir los inmuebles en categorías de riesgo y sin riesgo.|Otorgar una calificación a los inmuebles categorizados como en riesgo para priorizar orden de inspecciones|
 |¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|Los lugares a los que se realizará la inspección|
-|¿Cómo se validará el análisis utilizando datos existentes? ¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
-
+|¿Cómo se validará el análisis utilizando datos existentes? <br/><br/>¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
+]
+```{css, echo = FALSE}
+.tiny { 
+  font-size: 87%;
+}
+```
 ---
 
 # 08 Consideraciones éticas
 
-| Consideración | Descripción|
-|------|--------|
-|Privacidad ¿Se trabaja con datos personales y/o sensibles que pueden ser identificados identificables? Mencionarlos|La presencia de niños en una casa específica, La situación de salud de un individuo,Dirección del domicilio,Bienes materiales dentro de una vivienda,Identidad de los habitantes de la casa|
-|Transparencia ¿Qué stakeholders deben estar informados sobre qué partes del proyecto?|Director del departamento de salud, sobre los planes de implementación de médicos.    Director del departamento de inspección, sobre la forma en la que se utilizarán los inspectores.     Departamento de T.I. o proveedores de servicios tecnológicos, sobre utilización de tablets y desarrollo de una plataforma para la implementación de las inspecciones.    Autoridades policiacas locales, sobre el hecho que habrá personas realizando inspecciones en ciertos días en ciertos lugares.    Dirección de educación pública, sobre que se planean realizar pruebas de sangre en escuelas.|
-|Discriminación/Equidad ¿Existen grupos específicos para quienes se busca asegurar equidad en los resultados?|Habitantes de zonas marginadas y conglomerados poblacionales con poca población. Personas de minorías raciales. Familias monoparentales.|
-|Licencia Social: Sí toda la población del país se enterara del proyecto, ¿estarían de acuerdo con él? ¿Por qué?|En general, la población estaría de acuerdo en minimizar factores de riesgo en la salud de los niños. Aunque pueden existir personas que se opongan a que un extraño entre a su domicilio y a la toma de muestras de sangre.|
-|Responsabilidad ¿Quiénes son las personas responsables por todo lo establecido anteriormente?|Departamento de salud pública de Chicago, Consultores de ciencia de datos, Proveedores de infraestructura tecnológica y de servicios de almacenamiento y recolección de datos, Inspectores empleados|
-|Otras consideraciones como consentimiento, leyes, etc.|Entrar a escuelas e inmuebles para realizar mediciones de factores de riesgo, así como realizar tomas de sangre.|
+```{r, echo = F, warning=F, message=F}
+library(readr)
+
+# data08 <- read_csv2("tarea1ids2020/data/tabla_08.csv")
+data08 <- read_csv2("../data/tabla_08.csv")
+
+data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 1, scrollY = '365px', paging = T,
+    initComplete = JS("function(settings, json) {",
+    "$(this.api().table().header()).css({'background-color': '#000', 'color': '#fff'});","}"))) %>%
+    formatStyle(1:2, 'vertical-align'='top',fontSize = '88%')
+
+```
+
 
 ---
 # 09 ¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?
@@ -172,3 +185,7 @@ Visitas aleatorias a ubicaciones categorizadas como sin riesgo para verificar qu
 |Secretaría de Educación| Autorización y comunicación de inspecciones  |Encargado de informar y autorizar ingreso de inspectores a planteles educativos| 
 
 ---
+
+#gracias :) poner algo aqui
+
+

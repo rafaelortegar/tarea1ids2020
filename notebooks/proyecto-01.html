@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Proyecto 01: Introducción a Ciencia de Datos</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Angel Rafael Ortega Ramírez" />
+    <meta name="author" content="Leonardo Ceja Pérez" />
+    <meta name="author" content="Carlos Román López Sierra" />
+    <meta name="author" content="Oscar Arturo Bringas López" />
+    <meta name="author" content="José Antonio Lechuga Rivera" />
+    <meta name="author" content="Carlos Eduardo Bautista Pontanillo" />
+    <meta name="author" content="Mario Arturo Heredia Trejo" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+    <script src="libs/jquery-1.12.4/jquery.min.js"></script>
+    <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="libs/datatables-binding-0.15/datatables.js"></script>
+    <link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+    <link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+    <script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Proyecto 01: Introducción a Ciencia de Datos
+## ⚔<br/>with xaringan
+### Angel Rafael Ortega Ramírez
+### Leonardo Ceja Pérez
+### Carlos Román López Sierra
+### Oscar Arturo Bringas López
+### José Antonio Lechuga Rivera
+### Carlos Eduardo Bautista Pontanillo
+### Mario Arturo Heredia Trejo
+### ITAM
+### 2020/09/17
+
+---
+
+
+class: center, middle
+
+# 01 Introducción
+
+
+
+## Nombre del proyecto: 
+  
+  Envenenamiento por plomo
+
+## Nombre de la organización: 
+
+Departamento de Salud Pública de Chicago
+
+---
+class: inverse, middle
+
+## 03 Descripción del problema
+  
+  #### 3.1. ¿Cuál es el problema al que se enfrenta?
+
+  Casos de envenenamiento por plomo en niños en la ciudad de Chicago.
+
+  #### 3.2. ¿Quién/qué es afectado por este problema?
+  Niños menores de 6 años.
+
+---
+class: inverse, middle
+
+## 03 Descripción del problema
+
+
+  #### 3.3. ¿Cuántas personas/organizaciones/lugares/etc. y qué tanto son afectados?
+
+  De acuerdo con los datos demográficos de Chicago, existen alrededor de 2,693,976 personas, de las cuales 6.5% corresponden a niños con una edad debajo de 5 años, de los cuales se tuvieron 1,000 casos de envenenamiento reportados en 2014.
+
+  #### 3.4. ¿Por qué resolver este problema es una prioridad para la organización?
+
+  La población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida y la salud es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.
+---
+
+# 04 Objetivos
+
+¿Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tiene? (en orden de prioridad). 
+
+
+| |Objetivo       | Limitaciones  |
+|--|---------------|---------------|
+|1 |Reducir el número de casos de envenenamiento por plomo en niños.|No es cuantificable a corto plazo y no lleva a una acción concreta.|
+|2 |Mejorar la precisión de las inspecciones  e intervenciones por el departamento de salud en lugares de riesgo a exposición.|Número limitado de inspectores con los que cuenta el departamento de salud.|
+
+---
+# 05 Acciones
+|                                |Acción 1                 |Acción 2                  |
+|--------------------------------|-------------------------|--------------------------|
+|Acción:                         |Efectuar las inspecciones|Brindar servicio de minimización de elementos riesgosos|
+|¿Quién está ejecutando la acción?|Inspectores|Inspectores|
+|¿Sobre quién o qué se está ejecutando la acción?|Inmuebles enlistados|Inmuebles detectados con riesgo de plomo|
+|¿Con qué frecuencia hay que tomar la acción?|Diaria|Cada vez que haya sido detectado un niño con exposición a plomo en el inmueble|
+|¿Qué canales se usan o se pueden usar para tomar esta acción?|Censos e inventarios de inmuebles, Resultados de años anteriores|Listado de inmuebles detectados como riesgosos|
+
+
+---
+# 06 Datos
+  6.a. ¿Qué fuentes de datos internas tenemos internamente?
+
+<div id="htmlwidget-39652c5c2ce670acfb66" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-39652c5c2ce670acfb66">{"x":{"filter":"none","data":[["Nombre","¿Qué es lo que contiene?","¿Cuál es el nivel de granularidad?","¿Con qué frecuencia es recolectado/ actualizado después de ser capturado?","Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?","¿Quién es el propietario interno de los datos?","¿Cómo se almacena?","Comentarios adicionales"],["Pruebas de sangre por envenenamiento por plomo (histórico)","Número de niños envenenados por plomo y/o con alta exposición en años pasados","Manzana","Mensual","Sí","Departamento de Salud Pública de Chicago","Dispositivo electrónico (con datos descargables en csv)"," "],["Registros de inspección de plomo en inmuebles","El nivel de riesgo en el inmueble por exposición a plomo y si existe o no presencia de niños","Por hogar","Cada vez que se hace una nueva inspección en inmueble","Sí","Departamento de Salud Pública de Chicago","Dispositivo electrónico (con datos descargables en csv)"," "]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Característica<\/th>\n      <th>Fuente 01<\/th>\n      <th>Fuente 02<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollY":"360px","pageLength":4,"initComplete":"function(settings, json) {\n$(this.api().table().header()).css({'background-color': '#000', 'color': '#fff'});\n}","order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[4,10,25,50,100],"rowCallback":"function(row, data) {\nvar value=data[0]; $(this.api().cell(row, 0).node()).css({'vertical-align':'top','font-size':'88%'});\nvar value=data[1]; $(this.api().cell(row, 1).node()).css({'vertical-align':'top','font-size':'88%'});\nvar value=data[2]; $(this.api().cell(row, 2).node()).css({'vertical-align':'top','font-size':'88%'});\n}"}},"evals":["options.initComplete","options.rowCallback"],"jsHooks":[]}</script>
+
+---
+
+  6.b. ¿Qué datos se pueden obtener de fuentes externas, privadas o públicas?
+
+|   |Fuente 1|Fuente 2|Fuente 3|Fuente 4|Fuente 5|
+|---|--------|--------|--------|--------|--------|
+|Nombre|Censo|Shapefile de la ciudad|Registros catastrales|Censo económico|Registro de casos de envenenamiento por plomo|
+|¿Qué es lo que contiene?|Distribución geográfica de la población por edad|Características geoespaciales de los inmuebles (tamaño, ubicación, densidad, etc)|Registro de construcciones y remodelaciones de inmuebles|Características económicas de la población|Registro de envenenamientos por plomo en niños a nivel estatal|
+|¿Cuál es el nivel de granularidad?|Manzana|Nivel inmueble|Nivel inmueble|Manzana|Condado|
+|¿Con qué frecuencia es recolectado/actualizado?|10 años|10 años|Mensual|10 años|Mensual|
+|Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?|Sí|Sí|Sí|Sí|Sí|
+|¿Quién es el propietario interno de los datos?|Gobierno|Gobierno|Gobierno de Chicago|Gobierno|Gobierno (CDC)|
+|¿Cómo se almacena?|csv|shapefile|csv|shapefile|geojson|csv|csv|
+|Comentarios adicionales|  |  |incertidumbre si la actualización de los datos y la disponibilidad son simultáneas|   |Serán útiles para tener un punto de comparación con el número de pruebas y envenenamientos en el Estado|
+
+
+---
+  ### 6.c. En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?
+
+
+   Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años: Se desea conocer las características de los hogares, las condiciones de trabajo y grado escolar de los padres de familia.
+
+
+
+---
+
+.tiny[
+# 07 Análisis
+ 
+|  |Análisis 1:|Análisis 2:|
+|--|-----------|-----------|
+|Tipo de Análisis|Clasificación|Scoring|
+|Propósito del análisis|Dividir los inmuebles en categorías de riesgo y sin riesgo.|Otorgar una calificación a los inmuebles categorizados como en riesgo para priorizar orden de inspecciones|
+|¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|Los lugares a los que se realizará la inspección|
+|¿Cómo se validará el análisis utilizando datos existentes? &lt;br/&gt;&lt;br/&gt;¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
+]
+&lt;style type="text/css"&gt;
+.tiny { 
+  font-size: 87%;
+}
+&lt;/style&gt;
+---
+
+# 08 Consideraciones éticas
+
+<div id="htmlwidget-75463cc1d5a65c9bb117" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-75463cc1d5a65c9bb117">{"x":{"filter":"none","data":[["<b>Privacidad<\/b> <br/><br/> ¿Se trabaja con datos personales y/o sensibles que pueden ser identificados identificables? Mencionarlos","<b>Transparencia<\/b> <br/><br/> ¿Qué stakeholders deben estar informados sobre qué partes del proyecto?","<b>Discriminación / Equidad<\/b> <br/><br/> ¿Existen grupos específicos para quienes se busca asegurar equidad en los resultados?","<b>Licencia Social<\/b> <br/><br/> Sí toda la población del país se enterara del proyecto, ¿estarían de acuerdo con él? ¿Por qué?","<b>Responsabilidad<\/b> <br/><br/> ¿Quiénes son las personas responsables por todo lo establecido anteriormente?","Otras consideraciones como consentimiento, leyes, etc."],["La presencia de niños en una casa específica. <br/><br/> La situación de salud de un individuo <br/><br/> Dirección del domicilio. <br/><br/> Bienes materiales dentro de una vivienda. <br/><br/> Identidad de los habitantes de la casa.","Director del departamento de salud: sobre los planes de implementación de médicos. <br/><br/> Director del departamento de inspección: sobre la forma en la que se utilizarán los inspectores. <br/><br/> Departamento de T.I. o proveedores de servicios tecnológicos: sobre utilización de tablets y desarrollo de una plataforma para la implementación de las inspecciones. <br/><br/> Autoridades policiacas locales: sobre el hecho que habrá personas realizando inspecciones en ciertos días en ciertos lugares. <br/><br/> Dirección de educación pública: sobre que se planean realizar pruebas de sangre en escuelas.","Habitantes de zonas marginadas y conglomerados poblacionales con poca población. <br/><br/> Personas de minorías raciales. <br/><br/> Familias monoparentales.","En general, la población estaría de acuerdo en minimizar factores de riesgo en la salud de los niños. Aunque pueden existir personas que se opongan a que un extraño entre a su domicilio.","Departamento de salud pública de Chicago <br/><br/> Consultores de ciencia de datos <br/><br/> Proveedores de infraestructura tecnológica y de servicios de almacenamiento y recolección de datos <br/><br/> Inspectores empleados","Entrar a escuelas e inmuebles para realizar mediciones de factores de riesgo, así como realizar tomas de sangre."]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Consideración<\/th>\n      <th>Descripción<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":1,"scrollY":"365px","paging":true,"initComplete":"function(settings, json) {\n$(this.api().table().header()).css({'background-color': '#000', 'color': '#fff'});\n}","order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[1,10,25,50,100],"rowCallback":"function(row, data) {\nvar value=data[0]; $(this.api().cell(row, 0).node()).css({'vertical-align':'top','font-size':'88%'});\nvar value=data[1]; $(this.api().cell(row, 1).node()).css({'vertical-align':'top','font-size':'88%'});\n}"}},"evals":["options.initComplete","options.rowCallback"],"jsHooks":[]}</script>
+
+
+---
+# 09 ¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?
+
+Prueba por permutación. Para determinar si a los inmuebles donde se encontró riesgo por plomo, en las pruebas de sangre se detectó mayor plomo.
+Visitas aleatorias a ubicaciones categorizadas como sin riesgo para verificar que en efecto no existen riesgos de exposición de niños a plomo.
+
+---
+# 10 ¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?
+
+|Organización/Departamento|Descripción del involucramiento deseado|Nombre / Rol de Contraparte|
+|-------------------------|---------------------------------------|---------------------------|
+|Departamento de salud pública de Chicago|En todos los pasos del proyecto|Tomadores de decisiones|
+|Gobierno de Illinois|Conocer los objetivos del proyecto|Facilitador de información|
+|Departamento de finanzas|Emisión de facturas|Proveedor de los recursos económicos|
+|Proveedor de infraestructura, servicios tecnológicos y almacenamiento de datos|Implementación de las herramientas requeridas|Proveedor de servicios e infraestructura|
+|Secretaría de Educación| Autorización y comunicación de inspecciones  |Encargado de informar y autorizar ingreso de inspectores a planteles educativos| 
+
+---
+
+#gracias :) poner algo aqui
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

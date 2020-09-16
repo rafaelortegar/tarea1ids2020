@@ -40,7 +40,7 @@
 |--|---------------|---------------|
 |1 |Reducir el número de casos de envenenamiento por plomo en niños.|No es cuantificable a corto plazo y no lleva a una acción concreta.|
 |2 |Mejorar la precisión de las inspecciones  e intervenciones por el departamento de salud en lugares de riesgo a exposición.|Número limitado de inspectores con los que cuenta el departamento de salud.|
-
+<br/>
 
 5. **Acciones**<br/><br/>
 
@@ -50,10 +50,11 @@
 |¿Quién está ejecutando la acción?|Inspectores|Inspectores|
 |¿Sobre quién o qué se está ejecutando la acción?|Inmuebles enlistados|Inmuebles detectados con riesgo de plomo|
 |¿Con qué frecuencia hay que tomar la acción?|Diaria|Cada vez que haya sido detectado un niño con exposición a plomo en el inmueble|
-|¿Qué canales se usan o se pueden usar para tomar esta acción?|Censos e inventarios de inmuebles, Resultados de años anteriores|Listado de inmuebles detectados como riesgosos|
+|¿Qué canales se usan o se pueden usar para tomar esta acción?|Censos e inventarios de inmuebles <br/><br/> Resultados de años anteriores|Listado de inmuebles detectados como riesgosos|
+<br/>
 
-6. **Datos**<br/><br/>
-    A. ¿Qué fuentes de datos internas tenemos internamente?<br/><br/>
+6. **Datos** <br/>
+    A. *¿Qué fuentes de datos internas tenemos internamente?*<br/><br/>
 
 |                         |Fuente 1                                                  |Fuente 2                           |
 |-------------------------|----------------------------------------------------------|-----------------------------------|
@@ -65,8 +66,10 @@
 |¿Quién es el propietario interno de los datos?|Departamento de Salud Pública de Chicago|Departamento de Salud Pública de Chicago|
 |¿Cómo se almacena?|Dispositivo electrónico (con datos descargables en csv)|Dispositivo electrónico (con datos descargables en csv)|
 |Comentarios adicionales|      |      |
+<br/>
 
-   B. ¿Qué datos se pueden obtener de fuentes externas, privadas o públicas?<br/><br/>
+   B. *¿Qué datos se pueden obtener de fuentes externas, privadas o públicas?*<br/><br/>
+
 
 |   |Fuente 1|Fuente 2|Fuente 3|Fuente 4|Fuente 5|
 |---|--------|--------|--------|--------|--------|
@@ -76,11 +79,11 @@
 |¿Con qué frecuencia es recolectado/actualizado?|10 años|10 años|Mensual|10 años|Mensual|
 |Tiene identificadores confiables y únicos que pueden ser conectados a otras fuentes de datos?|Sí|Sí|Sí|Sí|Sí|
 |¿Quién es el propietario interno de los datos?|Gobierno|Gobierno|Gobierno de Chicago|Gobierno|Gobierno (CDC)|
-|¿Cómo se almacena?|csv|shapefile|csv,shapefile,geojson|csv|csv|
+|¿Cómo se almacena?|csv|shapefile|csv<br/><br/>shapefile<br/><br/>geojson|csv|csv|
 |Comentarios adicionales|  |  |incertidumbre si la actualización de los datos y la disponibilidad son simultáneas|   |Serán útiles para tener un punto de comparación con el número de pruebas y envenenamientos en el Estado|
+<br/>
 
-
-   C.En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?
+   C. *En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?*
    Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años: Se desea conocer las características de los hogares, las condiciones de trabajo y grado escolar de los padres de familia.<br/><br/>
 
 
@@ -91,24 +94,25 @@
 |Tipo de Análisis|Clasificación|Scoring|
 |Propósito del análisis|Dividir los inmuebles en categorías de riesgo y sin riesgo.|Otorgar una calificación a los inmuebles categorizados como en riesgo para priorizar orden de inspecciones|
 |¿Qué acción será informada por este análisis?|Los lugares a los que se realizará la inspección|Los lugares a los que se realizará la inspección|
-|¿Cómo se validará el análisis utilizando datos existentes? ¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
+|¿Cómo se validará el análisis utilizando datos existentes? <br/><br/>  ¿Qué metodología y métricas se utilizarán?|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|Empleado los datos históricos sobre envenenamiento por plomo en niños evaluar la precisión de las clasificaciones efectuadas.|
 
 8. **Consideraciones éticas**<br/><br/>
 
 
 | Consideración | Descripción|
 |------|--------|
-|Privacidad ¿Se trabaja con datos personales y/o sensibles que pueden ser identificados identificables? Mencionarlos|La presencia de niños en una casa específica, La situación de salud de un individuo,Dirección del domicilio,Bienes materiales dentro de una vivienda,Identidad de los habitantes de la casa|
-|Transparencia ¿Qué stakeholders deben estar informados sobre qué partes del proyecto?|Director del departamento de salud, sobre los planes de implementación de médicos.    Director del departamento de inspección, sobre la forma en la que se utilizarán los inspectores.     Departamento de T.I. o proveedores de servicios tecnológicos, sobre utilización de tablets y desarrollo de una plataforma para la implementación de las inspecciones.    Autoridades policiacas locales, sobre el hecho que habrá personas realizando inspecciones en ciertos días en ciertos lugares.    Dirección de educación pública, sobre que se planean realizar pruebas de sangre en escuelas.|
-|Discriminación/Equidad ¿Existen grupos específicos para quienes se busca asegurar equidad en los resultados?|Habitantes de zonas marginadas y conglomerados poblacionales con poca población. Personas de minorías raciales. Familias monoparentales.|
-|Licencia Social: Sí toda la población del país se enterara del proyecto, ¿estarían de acuerdo con él? ¿Por qué?|En general, la población estaría de acuerdo en minimizar factores de riesgo en la salud de los niños. Aunque pueden existir personas que se opongan a que un extraño entre a su domicilio y a la toma de muestras de sangre.|
-|Responsabilidad ¿Quiénes son las personas responsables por todo lo establecido anteriormente?|Departamento de salud pública de Chicago, Consultores de ciencia de datos, Proveedores de infraestructura tecnológica y de servicios de almacenamiento y recolección de datos, Inspectores empleados|
+|Privacidad ¿Se trabaja con datos personales y/o sensibles que pueden ser identificados identificables? <br/><br/>Mencionarlos|La presencia de niños en una casa específica. <br/><br/> La situación de salud de un individuo. <br/><br/> Dirección del domicilio. <br/><br/>Bienes materiales dentro de una vivienda. <br/><br/>Identidad de los habitantes de la casa|
+|Transparencia ¿Qué stakeholders deben estar informados sobre qué partes del proyecto?|Director del departamento de salud, sobre los planes de implementación de médicos. <br/><br/>   Director del departamento de inspección, sobre la forma en la que se utilizarán los inspectores.  <br/><br/>   Departamento de T.I. o proveedores de servicios tecnológicos, sobre utilización de tablets y desarrollo de una plataforma para la implementación de las inspecciones. <br/><br/>   Autoridades policiacas locales, sobre el hecho que habrá personas realizando inspecciones en ciertos días en ciertos lugares.  <br/><br/>  Dirección de educación pública, sobre que se planean realizar pruebas de sangre en escuelas.|
+|Discriminación/Equidad ¿Existen grupos específicos para quienes se busca asegurar equidad en los resultados?|Habitantes de zonas marginadas y conglomerados poblacionales con poca población. <br/><br/> Personas de minorías raciales. <br/><br/> Familias monoparentales.|
+|Licencia Social: Sí toda la población del país se enterara del proyecto, ¿estarían de acuerdo con él? ¿Por qué?|En general, la población estaría de acuerdo en minimizar factores de riesgo en la salud de los niños, aunque pueden existir personas que se opongan a que un extraño entre a su domicilio y a la toma de muestras de sangre.|
+|Responsabilidad ¿Quiénes son las personas responsables por todo lo establecido anteriormente?|Departamento de salud pública de Chicago <br/><br/> Consultores de ciencia de datos, <br/><br/>Proveedores de infraestructura tecnológica y de servicios de almacenamiento y recolección de datos, <br/><br/>Inspectores empleados|
 |Otras consideraciones como consentimiento, leyes, etc.|Entrar a escuelas e inmuebles para realizar mediciones de factores de riesgo, así como realizar tomas de sangre.|
+<br/>
 
 9. **¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?**<br/><br/>
 
-Prueba por permutación. Para determinar si a los inmuebles donde se encontró riesgo por plomo, en las pruebas de sangre se detectó mayor plomo.
-Visitas aleatorias a ubicaciones categorizadas como sin riesgo para verificar que en efecto no existen riesgos de exposición de niños a plomo.<br/><br/>
+* ***Prueba por permutación***. Para determinar si a los inmuebles donde se encontró riesgo por plomo, en las pruebas de sangre se detectó mayor plomo.
+* ***Visitas aleatorias a ubicaciones categorizadas como sin riesgo*** para verificar que en efecto no existen riesgos de exposición de niños a plomo.<br/><br/>
 
 
 10. **¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?**<br/><br/>
