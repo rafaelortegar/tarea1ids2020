@@ -120,18 +120,3 @@ Visitas aleatorias a ubicaciones categorizadas como sin riesgo para verificar qu
 |Departamento de finanzas|Emisión de facturas|Proveedor de los recursos económicos|
 |Proveedor de infraestructura, servicios tecnológicos y almacenamiento de datos|Implementación de las herramientas requeridas|Proveedor de servicios e infraestructura|
 |Secretaría de Educación| Autorización y comunicación de inspecciones  |Encargado de informar y autorizar ingreso de inspectores a planteles educativos| 
-
-
-
-1	Leo
-2	Leo
-3	Leo	
-4	Leo
-5	Toño 
-6 	Mario
-6 	Carlos Román 
-6 	Carlos Román
-7	Arthur
-8	F Carlos Bautista
-9	G Rafa Ortega
-10	G Rafa Ortega
