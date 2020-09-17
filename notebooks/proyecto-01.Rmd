@@ -1,6 +1,6 @@
 ---
 title: "Proyecto 01: Introducción a Ciencia de Datos"
-subtitle: ":espadas_cruzadas:<br/> with xaringan"
+subtitle: "⚔<br/>with xaringan"
 author:
   - Angel Rafael Ortega Ramírez
   - Leonardo Ceja Pérez
@@ -103,8 +103,8 @@ c("¿Cómo se almacena?","Dispositivo electrónico (con datos descargables en cs
 c("Comentarios adicionales"," "," ")
 )
 
-names(data6) <- c("Característica", "Fuente 01", "Fuente 02") 
-data6 %>% datatable(escape=FALSE, rownames=FALSE, options = list(scrollY = '360px',pageLength = 4,
+names(data6) <- c("Característica", "Pruebas de sangre", "inspección en inmuebles") 
+data6 %>% datatable(escape=FALSE, rownames=FALSE, options = list(scrollY = '330px',pageLength = 4,
     initComplete = JS( "function(settings, json) {",
     "$(this.api().table().header()).css({'background-color': '#000', 'color': '#fff'});","}")))%>%
     formatStyle(1:3, 'vertical-align'='top',fontSize = '77%')
@@ -112,7 +112,7 @@ data6 %>% datatable(escape=FALSE, rownames=FALSE, options = list(scrollY = '360p
 ```
 
 ---
-
+# 06 Datos
   6.b. ¿Qué datos se pueden obtener de fuentes externas, privadas o públicas?
 
 ```{r, echo = F, warning=F, message=F}
@@ -123,16 +123,17 @@ library(DT)
 # data08 <- read_csv2("tarea1ids2020/data/tabla_06b.csv")
 data08 <- read_csv2("../data/tabla_06b.csv")
 
-data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 3, scrollY = '390px', paging = T,
+data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 3, scrollY = '290px', paging = T,
     initComplete = JS("function(settings, json) {",
-    "$(this.api().table().header()).css({'font-size': '72%','background-color': '#000', 'color': '#fff'});","}"))) %>%
-    formatStyle(1:6, 'vertical-align'='top',fontSize = '72%')
+    "$(this.api().table().header()).css({'font-size': '69%','background-color': '#000', 'color': '#fff'});","}"))) %>%
+    formatStyle(1:6, 'vertical-align'='top',fontSize = '68%')
 
 ```
 
 
 ---
-  ### 6.c. En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?
+# 06 Datos
+   6.c. En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?
 
 
    Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años. Se desea conocer:
@@ -163,7 +164,7 @@ Los resultados se entregarán al cliente mediante un scoring, con el fin de otor
 ```
 ---
 
-# 08 Consideraciones éticas
+## 08 Consideraciones éticas
 
 ```{r, echo = F, warning=F, message=F}
 library(readr)
@@ -180,13 +181,13 @@ data08 %>% datatable(escape=FALSE, rownames = F, options = list(pageLength = 1, 
 
 
 ---
-# 09 ¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?
+### 09 ¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?
 
 * ***Prueba por permutación*** para determinar si a los inmuebles donde se encontró riesgo por plomo, se detectó mayores concentraciones de plomo en las pruebas de sangre.<br/><br/>
 * ***Visitas aleatorias a ubicaciones categorizadas como sin riesgo*** para verificar que en efecto no existen riesgos de exposición de niños a plomo.
 
 ---
-# 10 ¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?
+### 10 ¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?
 
 ```{r, echo = F, warning=F, message=F}
 library(readr)
