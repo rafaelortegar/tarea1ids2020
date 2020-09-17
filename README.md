@@ -115,8 +115,8 @@ Los resultados se entregarán al cliente mediante un scoring, con el fin de otor
 
 9. **¿Qué prueba de campo o prueba aleatorizada controlada puedes diseñar para validar el proyecto en el campo?**<br/><br/>
 
-* ***Prueba por permutación*** Para determinar si a los inmuebles donde se encontró riesgo por plomo, se detectó mayores concentraciones de plomo en las pruebas de sangre.
-* ***Visitas aleatorias a ubicaciones categorizadas como sin riesgo*** Para verificar que en efecto no existen riesgos de exposición de niños a plomo.<br/><br/>
+* ***Prueba por permutación*** para determinar si a los inmuebles donde se encontró riesgo por plomo, se detectó mayores concentraciones de plomo en las pruebas de sangre.<br/><br/>
+* ***Visitas aleatorias a ubicaciones categorizadas como sin riesgo*** para verificar que en efecto no existen riesgos de exposición de niños a plomo.<br/><br/>
 
 
 10. **¿Quiénes son las organizaciones externas y los departamentos internos que deben estar involucrados?**<br/><br/>
