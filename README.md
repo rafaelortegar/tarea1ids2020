@@ -28,10 +28,11 @@
     Niños menores de 6 años.<br/><br/>
 
     3.3. ***¿Cuántas personas/organizaciones/lugares/etc. y qué tanto son afectados?***
-    De acuerdo con los datos demográficos de Chicago, existen alrededor de 2,693,976 personas, de las cuales 6.5% corresponden a niños con una edad debajo de 5 años, de los cuales se tuvieron 1,000 casos de envenenamiento reportados en 2014.<br/><br/>
+    En el año 2014, se reportaron **1,000** casos de [envenenamiento en niños en Chicago](https://web.archive.org/web/20150801021423/http://www.myfoxchicago.com/story/29655450/1000-kids-diagnosed-with-lead-poisoning). Como referencia, y de acuerdo con los datos demográficos de Chicago, existen alrededor de **2,693,976** personas, de las cuales **6.5%** corresponden a niños con una edad debajo de 5 años<br/>
 
     3.4. ***¿Por qué resolver este problema es una prioridad para la organización?***
-    La población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida y la salud es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.<br/><br/>
+      Es de alta importancia la prevención de envenenamiento por plomo debido a que puede tardar meses o incluso años en presentar síntomas, con lo cual suele ser detectada cuando los niveles de intoxicación son altos. <br/><br/>
+      Por otro lado, la población infantil resulta especialmente vulnerable, por lo que la prevención y conservación de la vida y la salud es una prioridad. Adicionalmente, la detección oportuna de exposición a plomo permitirá disminuir el riesgo de efectos a largo plazo que repercutan en la calidad de vida de los infantes.<br/><br/>
 
 4. **Objetivos:** Cuáles son las metas de negocio/política que serán logradas al resolver este problema y qué restricciones se tiene? (en orden de prioridad). <br/><br/>
 
@@ -47,14 +48,14 @@
 |                                |Acción 1                 |Acción 2                  |
 |--------------------------------|-------------------------|--------------------------|
 |**Acción:**                     |Efectuar las inspecciones|Brindar servicio de minimización de elementos riesgosos|
-|**¿Quién está ejecutando la acción?**|Inspectores|Inspectores|
+|**¿Quién está ejecutando la acción?**|Inspectores|Interventores de salud|
 |**¿Sobre quién o qué se está ejecutando la acción?**|Inmuebles enlistados|Inmuebles detectados con riesgo de plomo|
 |**¿Con qué frecuencia hay que tomar la acción?**|Diaria|Cada vez que haya sido detectado un niño con exposición a plomo en el inmueble|
-|**¿Qué canales se usan o se pueden usar para tomar esta acción?**|Censos e inventarios de inmuebles <br/><br/> Resultados de años anteriores|Listado de inmuebles detectados como riesgosos|
+|**¿Qué canales se usan o se pueden usar para tomar esta acción?**|En persona|En persona|
 <br/>
 
 6. **Datos** <br/>
-    A. *¿Qué fuentes de datos tenemos internamente?*<br/><br/>
+    A. *¿Qué fuentes de datos internas tenemos?*<br/><br/>
 
 |                         |Fuente 1                                                  |Fuente 2                           |
 |-------------------------|----------------------------------------------------------|-----------------------------------|
@@ -84,7 +85,10 @@
 <br/>
 
    C. *En un mundo ideal, ¿qué datos adicionales te gustaría tener/recolectar que serían relevantes para el problema?*<br/>
-   Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años: Se desea conocer las características de los hogares, las condiciones de trabajo y grado escolar de los padres de familia.<br/><br/>
+   Encuestas realizadas en escuelas a padres de familia de niños menores de 6 años. Se desea conocer:
+   * Características de los hogares
+   * Condiciones de trabajo 
+   * Grado escolar de los padres de familia.<br/><br/>
 
 
 7. **Análisis**<br/><br/>
@@ -106,10 +110,10 @@ Los resultados se entregarán al cliente mediante un scoring, con el fin de otor
 | Consideración | Descripción|
 |------|--------|
 |**Privacidad** <br/><br/> ¿Se trabaja con datos personales y/o sensibles que pueden ser individualmente indentificables? <br/><br/>Mencionarlos|La presencia de niños en una casa específica. <br/><br/> La situación de salud de un individuo. <br/><br/> Dirección del domicilio. <br/><br/>Bienes materiales dentro de una vivienda. <br/><br/>Identidad de los habitantes de la casa|
-|**Transparencia** <br/><br/> ¿Qué stakeholders deben estar informados sobre qué partes del proyecto?|Director del departamento de salud, sobre los planes de implementación de médicos. <br/><br/>   Director del departamento de inspección, sobre la forma en la que se utilizarán los inspectores.  <br/><br/>   Departamento de T.I. o proveedores de servicios tecnológicos, sobre utilización de tablets y desarrollo de una plataforma para la implementación de las inspecciones. <br/><br/>   Autoridades policiacas locales, sobre el hecho que habrá personas realizando inspecciones en ciertos días en ciertos lugares.  <br/><br/>  Dirección de educación pública, sobre que se planean realizar pruebas de sangre en escuelas.|
+|**Transparencia** <br/><br/> ¿Qué stakeholders deben estar informados sobre qué partes del proyecto?|Director del departamento de salud: sobre los planes de implementación de médicos. <br/><br/>   Director del departamento de inspección: sobre la forma en la que se utilizarán los inspectores.  <br/><br/>   Departamento de T.I. o proveedores de servicios tecnológicos: sobre utilización de tablets y desarrollo de una plataforma para la implementación de las inspecciones. <br/><br/>   Autoridades policiacas locales: sobre el hecho que habrá personas realizando inspecciones en ciertos días en ciertos lugares.  <br/><br/>  Dirección de educación pública: sobre que se planean realizar pruebas de sangre en escuelas.|
 |**Discriminación/Equidad** <br/><br/> ¿Existen grupos específicos para quienes se busca asegurar equidad en los resultados?|Habitantes de zonas marginadas y conglomerados poblacionales con poca población. <br/><br/> Personas de minorías raciales. <br/><br/> Familias monoparentales.|
 |**Licencia Social** <br/><br/> Si toda la población del país se enterara del proyecto, ¿estarían de acuerdo con él? ¿Por qué?|En general, la población estaría de acuerdo en minimizar factores de riesgo en la salud de los niños, aunque pueden existir personas que se opongan a que un extraño entre a su domicilio y a la toma de muestras de sangre.|
-|**Responsabilidad** <br/><br/> ¿Quiénes son las personas responsables por todo lo establecido anteriormente?|Departamento de salud pública de Chicago <br/><br/> Consultores de ciencia de datos, <br/><br/>Proveedores de infraestructura tecnológica y de servicios de almacenamiento y recolección de datos, <br/><br/>Inspectores empleados|
+|**Responsabilidad** <br/><br/> ¿Quiénes son las personas responsables por todo lo establecido anteriormente?|Departamento de salud pública de Chicago <br/><br/> Consultores de ciencia de datos <br/><br/>Proveedores de infraestructura tecnológica y de servicios de almacenamiento y recolección de datos <br/><br/>Inspectores empleados|
 |**Otras consideraciones** como consentimiento, leyes, etc.|Entrar a escuelas e inmuebles para realizar mediciones de factores de riesgo, así como realizar tomas de sangre.|
 <br/>
 
